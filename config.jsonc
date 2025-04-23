@@ -1,0 +1,36 @@
+{
+    // style
+    "height": 28,
+    "spacing": 16,
+
+    // layout
+    "modules-left": [
+        "hyprland/window"
+    ],
+    "modules-center": [
+        "clock"
+    ],
+    "modules-right": [
+        "hyprland/language"
+    ],
+
+    // module settings
+    "hyprland/window": {
+        "format": "{class}",
+        "icon": true,
+        "icon-size": 24
+    },
+    "clock": {
+        "format": "{:%H:%M}",
+        "tooltip-format": "{:%d-%m-%Y}"
+    },
+    "hyprland/language": {
+        "format": "{shortDescription}"
+    },
+    "wireplumber": {
+    "format": "{volume}% {icon}",
+    "format-muted": "",
+    "on-click": "helvum",
+    "format-icons": ["", "", ""]
+}
+}

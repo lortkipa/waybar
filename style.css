@@ -1,0 +1,9 @@
+* {
+    font-family: FontAwesome, Roboto, Helvetica, Arial, sans-serif;
+}
+
+window#waybar {
+    background-color: black;
+    color: white;
+    font-size: 18px;
+}
