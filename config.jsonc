@@ -26,11 +26,5 @@
     },
     "hyprland/language": {
         "format": "{shortDescription}"
-    },
-    "wireplumber": {
-    "format": "{volume}% {icon}",
-    "format-muted": "",
-    "on-click": "helvum",
-    "format-icons": ["", "", ""]
-}
+    }
 }
