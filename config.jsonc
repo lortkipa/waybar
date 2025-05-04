@@ -5,6 +5,7 @@
 
     // layout
     "modules-left": [
+        "hyprland/workspaces",
         "hyprland/window"
     ],
     "modules-center": [
@@ -15,6 +16,9 @@
     ],
 
     // module settings
+    "hyprland/workspaces": {
+        "format": "{name}"
+    },
     "hyprland/window": {
         "format": "{class}",
         "icon": true,
