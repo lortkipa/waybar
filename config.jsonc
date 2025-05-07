@@ -12,6 +12,7 @@
         "clock"
     ],
     "modules-right": [
+        "battery",
         "hyprland/language"
     ],
 
@@ -27,6 +28,13 @@
     "clock": {
         "format": "{:%H:%M}",
         "tooltip-format": "{:%d-%m-%Y}"
+    },
+    "battery": {
+        "interval": 60,
+        "format": "{icon}",
+        "format-icons": ["", "", "", "", ""],
+        "tooltip": true, 
+        "tooltip-format": "{capacity}% - {timeTo}" 
     },
     "hyprland/language": {
         "format": "{shortDescription}"
